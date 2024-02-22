@@ -1,0 +1,65 @@
+body {
+    background-color: #EDEFF3; /* 你可以使用十六进制颜色代码 */
+  }
+
+.login-container {
+    width: 360px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.login-header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* 确保子项从容器的开始位置对齐 */
+    margin-bottom: 1em;
+}
+
+.login-icon {
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+}
+
+.login-title {
+    font-size: 2em;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 70%;
+    height: 1.5em;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #D8DEE4;
+    font-size: medium;
+    text-align: left;
+}
+
+.login-button {
+    width: 75%;
+    background-color: #3693f6;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #0053ac;
+}
+
+.login-button:active {
+    background-color: #003d7f;
+}

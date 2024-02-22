@@ -1,0 +1,19 @@
+.home-container {
+    width: 100%;
+    padding: auto;
+}
+
+.nav-header {
+    width: 100%; /* 宽度占满整个容器 */
+}
+
+.main-content {
+    width: 100%;
+    margin: 10px auto;
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* This adds space between the cards */
+}
+
+.k-stat-card {
+    place-items: center; /* 水平和垂直居中 */
+}

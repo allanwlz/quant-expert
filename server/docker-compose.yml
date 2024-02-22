@@ -1,0 +1,14 @@
+version: "3"
+
+services: 
+  db:
+    platform: linux/x86_64
+    image: mysql:5.7
+    container_name: qe_mysql
+    ports: 
+      - 3307:3306
+    environment: 
+      MYSQL_ROOT_PASSWORD: qepwd1231
+    volumes: 
+      - ./erp.sql:/data/application/erp.sql
+    command: --init-file /data/application/erp.sql
